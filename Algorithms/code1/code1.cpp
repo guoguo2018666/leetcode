@@ -1,5 +1,4 @@
 //
-// Created by 李洪斌 on 2019-04-17.
 //
 #include <iostream>
 #include <vector>
