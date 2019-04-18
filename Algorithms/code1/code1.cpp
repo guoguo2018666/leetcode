@@ -1,6 +1,4 @@
-//
-// Created by 李洪斌 on 2019-04-17.
-//
+
 #include <iostream>
 #include <vector>
 #include <map>
@@ -22,9 +20,7 @@ public:
                 returnVector.push_back(iter-nums.begin());
                 return returnVector;
             }
-            /*struct stInfo info;
-            info.index = iter - nums.begin();
-            info.value = *iter;*/
+
             subMap[*iter] = iter - nums.begin();
         }
 
