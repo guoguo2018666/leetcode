@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lihongbin3/all/cppall/leetcode/Algorithms/code2
+CMAKE_SOURCE_DIR = /Users/lihongbin3/all/cppall/leetcode/Algorithms/code3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug/CMakeFiles /Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/cmake-build-debug/CMakeFiles /Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,71 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named code2
+# Target rules for targets named code3
 
 # Build rule for target.
-code2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 code2
-.PHONY : code2
+code3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 code3
+.PHONY : code3
 
 # fast build rule for target.
-code2/fast:
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/build
-.PHONY : code2/fast
+code3/fast:
+	$(MAKE) -f CMakeFiles/code3.dir/build.make CMakeFiles/code3.dir/build
+.PHONY : code3/fast
 
-Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.o: Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.o
+code3.o: code3.cpp.o
 
-.PHONY : Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.o
-
-# target to build an object file
-Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.o:
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.o
-.PHONY : Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.o
-
-Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.i: Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.i
-
-.PHONY : Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.i
-
-# target to preprocess a source file
-Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.i:
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.i
-.PHONY : Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.i
-
-Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.s: Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.s
-
-.PHONY : Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.s
-
-# target to generate assembly for a file
-Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.s:
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.s
-.PHONY : Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.s
-
-code2.o: code2.cpp.o
-
-.PHONY : code2.o
+.PHONY : code3.o
 
 # target to build an object file
-code2.cpp.o:
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/code2.cpp.o
-.PHONY : code2.cpp.o
+code3.cpp.o:
+	$(MAKE) -f CMakeFiles/code3.dir/build.make CMakeFiles/code3.dir/code3.cpp.o
+.PHONY : code3.cpp.o
 
-code2.i: code2.cpp.i
+code3.i: code3.cpp.i
 
-.PHONY : code2.i
+.PHONY : code3.i
 
 # target to preprocess a source file
-code2.cpp.i:
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/code2.cpp.i
-.PHONY : code2.cpp.i
+code3.cpp.i:
+	$(MAKE) -f CMakeFiles/code3.dir/build.make CMakeFiles/code3.dir/code3.cpp.i
+.PHONY : code3.cpp.i
 
-code2.s: code2.cpp.s
+code3.s: code3.cpp.s
 
-.PHONY : code2.s
+.PHONY : code3.s
 
 # target to generate assembly for a file
-code2.cpp.s:
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/code2.cpp.s
-.PHONY : code2.cpp.s
+code3.cpp.s:
+	$(MAKE) -f CMakeFiles/code3.dir/build.make CMakeFiles/code3.dir/code3.cpp.s
+.PHONY : code3.cpp.s
 
 # Help Target
 help:
@@ -185,13 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... code2"
-	@echo "... Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.o"
-	@echo "... Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.i"
-	@echo "... Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.s"
-	@echo "... code2.o"
-	@echo "... code2.i"
-	@echo "... code2.s"
+	@echo "... code3"
+	@echo "... code3.o"
+	@echo "... code3.i"
+	@echo "... code3.s"
 .PHONY : help
 
 

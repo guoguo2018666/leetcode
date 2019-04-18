@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp" "/Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug/CMakeFiles/code2.dir/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp.o"
-  "/Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/code2.cpp" "/Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug/CMakeFiles/code2.dir/code2.cpp.o"
+  "/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp" "/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/cmake-build-debug/CMakeFiles/code3.dir/code3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

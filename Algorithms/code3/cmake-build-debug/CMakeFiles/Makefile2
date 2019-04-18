@@ -59,45 +59,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lihongbin3/all/cppall/leetcode/Algorithms/code2
+CMAKE_SOURCE_DIR = /Users/lihongbin3/all/cppall/leetcode/Algorithms/code3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/code2.dir
+# Target rules for target CMakeFiles/code3.dir
 
 # All Build rule for target.
-CMakeFiles/code2.dir/all:
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/depend
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target code2"
-.PHONY : CMakeFiles/code2.dir/all
+CMakeFiles/code3.dir/all:
+	$(MAKE) -f CMakeFiles/code3.dir/build.make CMakeFiles/code3.dir/depend
+	$(MAKE) -f CMakeFiles/code3.dir/build.make CMakeFiles/code3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target code3"
+.PHONY : CMakeFiles/code3.dir/all
 
 # Include target in all.
-all: CMakeFiles/code2.dir/all
+all: CMakeFiles/code3.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/code2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/code2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/code2.dir/rule
+CMakeFiles/code3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/code3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/code3.dir/rule
 
 # Convenience name for target.
-code2: CMakeFiles/code2.dir/rule
+code3: CMakeFiles/code3.dir/rule
 
-.PHONY : code2
-
-# clean rule for target.
-CMakeFiles/code2.dir/clean:
-	$(MAKE) -f CMakeFiles/code2.dir/build.make CMakeFiles/code2.dir/clean
-.PHONY : CMakeFiles/code2.dir/clean
+.PHONY : code3
 
 # clean rule for target.
-clean: CMakeFiles/code2.dir/clean
+CMakeFiles/code3.dir/clean:
+	$(MAKE) -f CMakeFiles/code3.dir/build.make CMakeFiles/code3.dir/clean
+.PHONY : CMakeFiles/code3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/code3.dir/clean
 
 .PHONY : clean
 

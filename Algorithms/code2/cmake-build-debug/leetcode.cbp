@@ -85,6 +85,9 @@
 		<Unit filename="/Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/code2.cpp">
 			<Option target="code2"/>
 		</Unit>
+		<Unit filename="/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp">
+			<Option target="code2"/>
+		</Unit>
 		<Unit filename="/Users/lihongbin3/all/cppall/leetcode/Algorithms/code2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

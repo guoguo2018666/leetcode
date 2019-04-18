@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lihongbin3/all/cppall/leetcode/Algorithms/code3/code3.cpp
+iostream
+-
+unordered_map
+-
+unordered_set
+-
+
